@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: url(images/grey_wash_wall.png);
+	background-repeat: repeat;
+	text-align: center;
+	height: 100%;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+	height: 420px;
+	width: 70%;
+	color: #FFF;
+	font: 22px "Palatino Linotype", Palatino, "Times New Roman", serif;
+	background:rgba(255,255,255, 0.4);
+	border-radius: 20px;
+	padding: 40px;
+}
+#thanks {
+	display:none;
+}
+#thanks h1 {
+	padding: 100px;
+}
+h1 {
+	font-size: 38px;
+	font-weight: 600em;
+	letter-spacing: 2px;
+}
+h2 {
+	padding-top: 5px;
+	font-family: Tahoma, sans-serif;
+}
+#guessbox {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	background: rgba(205, 26, 32, 0.85);
+	font-family: Tahoma, sans-serif;
+	height:210px;
+	width:40%;
+	color: #FFF;
+	border-radius:15px;
+	padding: 15px;
+}
+#game {
+	display: none;
+}
+#newgame {
+	font-size: 20px;
+	margin:70px;
+}
+#userguess {
+	margin-top: 20px;
+	width: 30px;
+	font-size: 24px;
+	line-height: 18px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.button {
+	margin: 20px;
+	color: #CD1A20;
+	font-weight: bolder;
+	border: 2px solid #CD1A20;
+	border-radius: 5px;
+	padding: 10px 25px;
+}
+.hoverbutton {
+	color: #FFF;
+	background-color: #CD1A20;
+	border: 2px solid #FFF;
+}
